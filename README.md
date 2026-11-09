@@ -1,16 +1,28 @@
-## Hi there 👋
+# เว็บไซต์รายวิชาวิทยาการคำนวณ
 
-<!--
-**palinton12/palinton12** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+เว็บไซต์ สแตติกสำหรับเปิดเรียนรู้และทำแบบทดสอบ ใช้ HTML, CSS และ JavaScript ล้วน ไม่มี PHP, ฐานข้อมูล หรือเซิร์ฟเวอร์ฝั่งหลังบ้าน
 
-Here are some ideas to get you started:
+## ไฟล์
+- `index.html` หน้าเว็บไซต์หลัก
+- `style.css` รูปแบบและ responsive layout
+- `script.js` เมนู บทเรียน หน้าต่างรายละเอียด และระบบแบบทดสอบ
+- `assets/` โฟลเดอร์สำหรับสื่อประกอบ
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## เปิดทดสอบในเครื่อง
+1. ดาวน์โหลดและแตกไฟล์ ZIP
+2. เปิดโฟลเดอร์ `computing-science-website`
+3. ดับเบิลคลิก `index.html` เพื่อเปิดใน Chrome, Edge หรือ Firefox
+4. ทดสอบเมนูบนมือถือโดยใช้ Developer Tools ของเบราว์เซอร์ แล้วเลือกอุปกรณ์จำลอง หรือเปิดไฟล์บนโทรศัพท์
+
+## เผยแพร่ด้วย GitHub Pages
+1. ลงชื่อเข้าใช้ GitHub แล้วสร้าง repository ใหม่ เช่น `computing-science`
+2. อัปโหลดไฟล์และโฟลเดอร์ทั้งหมดในโฟลเดอร์นี้ โดยให้ `index.html` อยู่ที่ root ของ repository
+3. เข้า Settings → Pages
+4. ในส่วน Build and deployment เลือก `Deploy from a branch`
+5. เลือก Branch `main` และ Folder `/ (root)` แล้วกด Save
+6. รอ GitHub Pages เผยแพร่ แล้วเปิด URL ที่ GitHub แสดงในหน้า Pages
+
+## หมายเหตุ
+- คะแนนสูงสุดถูกบันทึกใน `localStorage` ของเบราว์เซอร์และอุปกรณ์ที่ใช้ทำแบบทดสอบ ไม่ได้ส่งไปเก็บบนเซิร์ฟเวอร์
+- ฟอนต์ Google Fonts ต้องใช้อินเทอร์เน็ต หากออฟไลน์จะใช้ฟอนต์สำรองของอุปกรณ์
+- เนื้อหาและแบบทดสอบเป็นชุดเริ่มต้น สามารถแก้ไขใน `script.js` และ `index.html` ได้
